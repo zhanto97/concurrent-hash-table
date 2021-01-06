@@ -1,0 +1,14 @@
+[package]
+name = "hash_table"
+version = "0.1.0"
+authors = ["Orynbassarov Zhantore <zhanto97@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+crossbeam-channel = "0.5.0"
+crossbeam-epoch = "0.9.0"
+crossbeam-utils = "0.8.0"
+cs492-concur-homework = { git = "https://github.com/kaist-cp/cs492-concur"}
+lockfree = { git = "https://github.com/kaist-cp/cs492-concur"}
